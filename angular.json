@@ -29,6 +29,16 @@
         },
         "@schematics/angular:service": {
           "skipTests": true
+        },
+        "appFont": {
+          "assets": [
+            "src/favicon.ico",
+            "src/assets"
+          ],
+          "styles": [
+            "node_modules/@fortawesome/fontawesome-free/css/all.css",
+            "src/styles.css"
+          ]
         }
       },
       "root": "",
@@ -144,6 +154,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "forms-login02"
+    }
+  },
+  "defaultProject": "forms-login02",
+  "cli": {
+    "analytics": false
+  }
 }

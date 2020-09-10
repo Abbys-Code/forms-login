@@ -1,0 +1,23 @@
+.mainContainer{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: 0px;
+    padding: 0px;
+    height: 100vh;
+    width: 100vw;
+    background: rgb(5,0,93);
+    background: linear-gradient(338deg, rgba(5,0,93,1) 25%, rgba(21,32,162,1) 41%, rgba(9,9,121,1) 52%, rgba(0,149,180,1) 72%);
+}
+
+nav {
+    background: rgb(18, 98, 168);
+    height: 10vh;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
